@@ -1,38 +1,202 @@
+/* la parte principal del componente */
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap");
+
 .App {
+  background-color: #fcd7ad;
+  padding: 1% 0% 0% 0%;
+  font-family: "Open Sans", sans-serif;
+}
+
+.cabecera {
+  margin: 0px auto;
+  padding: 1% 2%;
   text-align: center;
+  font-weight: bold;
+  letter-spacing: 1px;
+  background-color: #5296a5;
+  width: 60%;
+  text-shadow: 1px 1px 1px #fcd7ad;
+  box-shadow: 1px 1px 1px #a57548;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.icono-flecha {
+  margin: -1% 0%;
+  box-shadow: 1px 1px 1px #a57548;
+}
+/* enlaces principales */
+.enlaces-principales {
+  margin: 0px auto;
+  text-align: center;
+  width: 25%;
+  background-color: #5296a5;
+  text-shadow: 1px 1px 1px #fcd7ad;
+  padding: 1% 1%;
+  box-shadow: 1px 1px 1px #a57548;
+}
+.enlace-principal {
+  list-style: number;
+  font-weight: bold;
+  text-align: left;
+}
+.enlace {
+  text-decoration: none;
+  font-weight: bold;
+  text-align: center;
+  color: rgb(0, 14, 60);
+}
+/* inicio principal */
+.inicio-principal {
+  background-color: #82ddf0;
+  width: 20%;
+  padding: 1% 8%;
+  margin: 5% auto;
+  text-shadow: 1px 1px 1px #5296a5;
+  box-shadow: 1px 1px 1px #a57548;
+}
+/* contacto principal */
+.contacto-principal {
+  background-color: #82ddf0;
+  width: 20%;
+  padding: 1% 8%;
+  margin: 5% auto;
+  text-shadow: 1px 1px 1px #5296a5;
+  box-shadow: 1px 1px 1px #a57548;
+}
+/* articulo principal */
+.articulo-principal {
+  background-color: #82ddf0;
+  width: 20%;
+  padding: 1% 8%;
+  margin: 5% auto;
+  text-shadow: 1px 1px 1px #5296a5;
+  box-shadow: 1px 1px 1px #a57548;
+}
+/* enlaces secundarios */
+.enlace-secundario {
+  width: 25%;
+  background-color: #5296a5;
+  text-shadow: 1px 1px 1px #fcd7ad;
+  padding: 3% 3%;
+  margin: 1% 1%;
+  box-shadow: 1px 1px 1px #a57548;
+}
+.enlaces-secundarios {
+  list-style: number;
+  font-weight: bold;
+  text-align: left;
+}
+.enlaces {
+  text-decoration: none;
+  font-weight: bold;
+  text-align: center;
+  color: rgb(0, 14, 60);
+}
+.txt-opciones{
+  font-size:18px;
+  font-weight:bold;
+}
+/* inicio-panel */
+.inicio-panel {
+  text-align: center;
+  text-shadow: 1px 1px 1px #5296a5;
+  box-shadow: 1px 1px 1px #a57548;
+  background-color: #82ddf0;
+  width: 60%;
+  margin: 3% auto;
+}
+/* Gestion */
+.gestion {
+  text-align: center;
+  text-shadow: 1px 1px 1px #5296a5;
+  box-shadow: 1px 1px 1px #a57548;
+  background-color: #82ddf0;
+  width: 60%;
+  margin: 3% auto;
+}
+/* Acerca */
+.acerca {
+  text-align: center;
+  text-shadow: 1px 1px 1px #5296a5;
+
+  background-color: #82ddf0;
+  width: 60%;
+  margin: 3% auto;
+}
+/* Crear Articulos */
+.crear-articulos {
+  text-align: center;
+  text-shadow: 1px 1px 1px #5296a5;
+  box-shadow: 1px 1px 1px #a57548;
+  background-color: #82ddf0;
+  width: 60%;
+  margin: 0% auto;
+}
+/* error de pagina */
+.error-pagina {
+  text-align: center;
+  background-color: #9b2226;
+  width: 40%;
+  padding: 5% 0%;
+  margin: 5% auto;
+  border-radius:10px;
+  box-shadow: 1px 1px 1px #a57548;
+}
+.titulo-error {
+  color: rgb(255, 139, 50);
+  text-shadow: 1px 1px 1px #000;
+  font-size: 25px;
+}
+.txt-error {
+  color: rgb(255, 139, 50);
+  text-shadow: 1px 1px 1px #000;
+  font-size: 25px;
+  margin: 0% 0% 10% 0%;
+}
+.btn-error {
+  text-decoration: none;
+  background-color: rgb(255, 139, 50);
+  color: rgb(57, 0, 0);
+  text-shadow: 1px 1px 1px rgb(255, 70, 70);
+  border-radius: 50%;
+  font-weight: bold;
+  padding: 2% 3%;
+  box-shadow: 1px 1px 1px rgb(66, 0, 0);
+  transition: 1s all;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.btn-error:hover {
+  text-decoration: none;
+  color: rgb(255, 139, 50);
+  background-color: rgb(66, 0, 0);
+  text-shadow: 1px 1px 1px rgb(255, 0, 0);
+  border-radius: 50%;
+  font-weight: bold;
+  padding: 2% 3%;
+  box-shadow: 1px 1px 1px #a57548;
+  transition: 1s all;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+/* pie de pagina */
+.pie-de-pagina {
+  background-color: #5296a5;
+  font-weight: bold;
+  font-size: 25px;
+  padding: 1% 1%;
+  box-shadow: 1px 1px 1px #a57548;
+  text-shadow: 1px 1px 1px #fcd7ad;
+  border: 1px groove #a57548;
+  margin: 5% 0% 0% 0%;
 }
-
-.App-link {
-  color: #61dafb;
+.enlace-github{
+  text-decoration:none;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px #000;
+  color:  #e9d8a6;
+  transition:1s all;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.enlace-github:hover{
+  text-decoration:none;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px #000;
+  color:  #a57548;
+  transition:1s all;
 }
