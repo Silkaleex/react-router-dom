@@ -1,6 +1,6 @@
 # Sobre React-Router-Dom
 ## En este repositorio que he subido, uso todas las funcionalidades de react-router-dom usando link, y NavLink, esta versión esta actualiza a la 6.14.2
-## Le añadí una condicion a los enlaces, que cuando nos dirigamos a una direccion esa enlace resalte mas y se vea a la vista que estas en esa sección
+## Le añadí una condición a los enlaces, que cuando nos dirigamos a una dirección ese enlace resalte más y se vea a la vista que esta en esa sección
 ## Instalación
 ### paquete instalado en react de react-router-dom: npm install react-router-dom
 ## Como se ve Actualmente:
